@@ -18,7 +18,7 @@
 
         gtag('config', 'G-8L9E6STGCG');
     </script>
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -43,6 +43,23 @@
     <p><a href="exercises/hero-text.html">Hero block with text</a></p>
     <p><a href="exercises/hero-video.html">Hero block with video</a></p>
     <p><a href="exercises/dublin.html">Section page</a></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+            "background": "#000"
+            },
+            "button": {
+            "background": "#f1d600"
+            }
+        },
+        "content": {
+            "href": "https://alexispinson.github.io/privacy.html"
+        }
+        });
+    </script>
 </body>
 
 
